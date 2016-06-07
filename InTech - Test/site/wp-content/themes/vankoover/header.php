@@ -11,7 +11,7 @@
 <html <?php language_attributes(); ?> class="no-js">
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -25,7 +25,7 @@
 	<div class="site-inner" style="width: 100%; margin: 0px auto;max-width: none;">
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'vankoover' ); ?></a>
 
-		<header id="masthead" class="site-header" role="banner" style="background-color: #ffffff;background-image: url('http://localhost:8888/wp-content/uploads/2016/05/background.jpg');background-repeat: no-repeat;background-position: top center;background-attachment: scroll; padding: 20px 10%;">
+		<header id="masthead" class="site-header" role="banner" style="background-color: #ffffff;background-image: url('<?php echo get_site_url(); ?>/wp-content/uploads/2016/05/background.jpg');background-repeat: no-repeat;background-position: top center;background-attachment: scroll; padding: 20px 10%;">
             <div class="site-header-main">
 				<div class="site-branding">
 					<?php vankoover_the_custom_logo(); ?>

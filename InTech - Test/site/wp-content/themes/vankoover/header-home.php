@@ -11,7 +11,7 @@
 <html <?php language_attributes(); ?> class="no-js">
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -29,7 +29,7 @@ jq(document).ready(function(){
         });
     </script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="/wp-content/themes/vankoover/js/slider.min.js"></script>
+    <script src="<?php echo get_site_url(); ?>/wp-content/themes/vankoover/js/slider.min.js"></script>
 </head>
 
 <body <?php body_class(); ?>>

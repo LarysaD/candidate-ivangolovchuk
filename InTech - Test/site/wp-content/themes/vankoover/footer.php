@@ -58,7 +58,7 @@
             <div id="powered_by">
                 <span>Powered by</span>
                 <a href="http://www.intechdynamics.com/">
-                    <img class="powered-img" src="/wp-content/uploads/2016/06/logo2.png" />
+                    <img class="powered-img" src="<?php echo get_site_url(); ?>/wp-content/uploads/2016/06/logo2.png" />
                 </a>
             </div>
                 </div>

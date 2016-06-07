@@ -2715,6 +2715,91 @@ p > video {
 	width: device-width;
 }
 
+@media screen and (min-width: 320px) and (max-width: 709px) {
+    .site-header {
+    padding: 1em 1em 5.25em 1em;
+    }
+    .menu-toggle.toggled-on, .menu-toggle.toggled-on:hover, .menu-toggle.toggled-on:focus {
+    background-color: #9ea72d;
+    border-color: #FFFFFF;
+    color: #fff;
+    }
+    .menu-toggle {
+    color: #FFFFFF;
+    }
+    .site-header-menu.toggled-on, .no-js .site-header-menu {
+    text-align: center;
+    }
+    .phonenumber {
+    padding-left: 30%;
+    }
+    .main-navigation {
+    padding-top: 20px;
+    }
+    .site-header .main-navigation + .social-navigation {
+    padding-left: 25%;
+    }
+    .social-navigation a {
+    color: #BFB9B9;
+    }
+    .wpb_text_column.wpb_content_element {
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    }
+    .wpb_column.vc_column_container.vc_col-sm-8.vc_col-has-fill {
+    width: 100% !important;
+    }
+    .wpb_text_column.wpb_content_element {
+    margin-left: 0px !important;
+    }
+    .woocommerce ul.products li.product a img {
+    width: 85%;
+    }
+    .vc_row.wpb_row.vc_row-fluid.vc_custom_1464859421183 {
+    margin-bottom: 0px !important;
+    }
+    .main-navigation a {
+    color: #acb615;
+    }
+    .foo-rights {
+    width: 100% !important;
+    }
+    .bottomMenu {
+    text-align: center;
+    display: block;
+    width: 100% !important;
+    float: left;
+    margin-top: 4px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    }
+    .bottomMenu li {
+    list-style-type: none;
+    display: inline;
+    font-size: 9px !important;
+    }
+    .site-info {
+    width: 100% !important;
+    }
+    ul, ol {
+    margin: 0em;
+    }
+    .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 25% !important;
+    margin-top: 0px !important;
+    outline: 0;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 9999;
+    }
+    .bx-viewport {
+    height: 80px !important;
+    }
+}
+
 
 /**
  * 14.1 - >= 710px
